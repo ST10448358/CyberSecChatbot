@@ -56,7 +56,7 @@ namespace CyberSecurityChatbot
 
         static Dictionary<string, string> topicExplanations = new Dictionary<string, string>
     {
-        { "password", "Passwords are like secret keys. A strong password protects your personal data from being stolen." },
+        { "password", "Passwords are like a locked house. A strong password protects your personal data from being stolen." },
         { "phishing", "Phishing is when attackers trick you into giving away personal information through fake emails or websites." },
         { "scam", "A scam is a dishonest scheme used to deceive people into giving away money or personal details." },
         { "safe browsing", "Safe browsing means protecting yourself from online threats by avoiding risky websites and behaviors." },
@@ -75,8 +75,8 @@ namespace CyberSecurityChatbot
 
         static Dictionary<string, string> topicExamples = new Dictionary<string, string>
     {
-        { "password", "For example, a strong password could be 'Mys3cur3$Pass!' instead of '12345'." },
-        { "phishing", "An example is getting an email from 'your bank' asking you to click a link to reset your password." },
+        { "password", "For instance, a strong password could be 'Mys3cur3$Pass!' instead of '12345'." },
+        { "phishing", "For example getting an email from 'your bank' asking you to click a link to reset your password." },
         { "scam", "An example is someone calling you claiming you’ve won money, but asking for your card details." },
         { "safe browsing", "Avoiding downloading pirated movies from suspicious websites is part of safe browsing." },
         { "privacy", "Don’t post your ID number or home address on social media to protect your privacy." }
