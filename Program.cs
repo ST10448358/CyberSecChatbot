@@ -11,8 +11,9 @@ namespace CyberSecurityChatbot
         static string userName = "";
         static Dictionary<string, string> memory = new Dictionary<string, string>();
 
-
-    static List<string> phishingTips = new List<string>
+        // tips for cybersecurity topics
+      
+        static List<string> phishingTips = new List<string>
     {
         "Be cautious of emails asking for personal information. Scammers often pretend to be trusted organisations.",
         "Never click on suspicious links or open attachments from unknown senders.",
@@ -51,6 +52,7 @@ namespace CyberSecurityChatbot
         "Use strong privacy settings on apps and websites.",
         "Regularly review the permissions you've granted to apps."
     };
+        // Topic explanation (used in conversation mode)
 
         static Dictionary<string, string> topicExplanations = new Dictionary<string, string>
     {
@@ -60,7 +62,7 @@ namespace CyberSecurityChatbot
         { "safe browsing", "Safe browsing means protecting yourself from online threats by avoiding risky websites and behaviors." },
         { "privacy", "Online privacy is about keeping your personal information secure and choosing what to share." }
     };
-
+        // Analogies to simplify complex concepts
         static Dictionary<string, string> topicAnalogies = new Dictionary<string, string>
     {
         { "password", "Think of your password like a house key. If it's weak or shared, it's like leaving your door unlocked." },
@@ -69,6 +71,7 @@ namespace CyberSecurityChatbot
         { "safe browsing", "It’s like walking on a well-lit sidewalk versus a dark alley online." },
         { "privacy", "Your privacy online is like drawing the curtains on your windows—you control what others see." }
     };
+        // Examples to illustrate concepts
 
         static Dictionary<string, string> topicExamples = new Dictionary<string, string>
     {
@@ -78,6 +81,7 @@ namespace CyberSecurityChatbot
         { "safe browsing", "Avoiding downloading pirated movies from suspicious websites is part of safe browsing." },
         { "privacy", "Don’t post your ID number or home address on social media to protect your privacy." }
     };
+        // Menu topic definitions for selection mode
 
         static Dictionary<string, string> menuTopicDefinitions = new Dictionary<string, string>
     {
@@ -87,7 +91,7 @@ namespace CyberSecurityChatbot
         { "safe browsing", "Safe browsing is the practice of using the internet in a cautious way to avoid malware, scams, or harmful websites." },
         { "privacy", "Privacy online means keeping control over your personal information and deciding what you share and with whom." }
     };
-
+        // Display ASCII art for the chatbot
         static void DisplayAsciiArt()
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
